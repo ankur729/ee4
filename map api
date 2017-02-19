@@ -11,6 +11,12 @@ AFTER THAT IN LOCATION SEARCH FILE USE THIS CODE
 	</div>
 </div>
 
+		<style>
+		.pac-item-query{
+
+			color:green;
+		}
+		</style>
 
 AND THIS SCRIPT
 
@@ -19,3 +25,16 @@ AND THIS SCRIPT
 new google.maps.places.Autocomplete(document.getElementById('autocomplete'))
 
 </script>
+
+
+LINKS:-
+
+http://stackoverflow.com/questions/13689705/how-to-add-google-maps-autocomplete-search-box
+
+http://stackoverflow.com/questions/10653023/is-there-a-way-to-restrict-the-google-places-autocomplete-to-search-a-citys-str
+
+http://stackoverflow.com/questions/13702720/google-map-api-autocomplete-restricted-bias-to-street-address-in-my-town?rq=1
+
+http://stackoverflow.com/questions/8282026/how-to-limit-google-autocomplete-results-to-city-and-country-only
+
+http://stackoverflow.com/questions/33214788/how-to-restrict-google-places-to-specific-city
