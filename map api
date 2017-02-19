@@ -1,0 +1,21 @@
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+
+AFTER THAT IN LOCATION SEARCH FILE USE THIS CODE
+
+<div class="location-search">
+	<div class="coloum-div">
+		<input type="text" id="autocomplete"  name="" class="search-div controls" placeholder="Please choose your location">
+	</div>
+	<div class="coloum-div col-px-100">
+	<a  ng-click="test()"><span class="locate-me" >Locate Me <i class="icon"></i></span></a>
+	</div>
+</div>
+
+
+AND THIS SCRIPT
+
+<script>
+
+new google.maps.places.Autocomplete(document.getElementById('autocomplete'))
+
+</script>
